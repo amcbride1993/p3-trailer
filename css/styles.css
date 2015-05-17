@@ -4,11 +4,24 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 
 body{
 	background:black;
+	color:white;
+		font-family:'Roboto',sans-serif;
+}
+
+hr{
+	border-color: #6dcff5;
+}
+
+.header{
+	text-align: center;
+	font-weight:bold;
+	letter-spacing: 1px;
 }
 
 .row{
 	padding-top: 50px;
 }
+
 
 .tron-title{
   background:url("../img/tron-title.png") no-repeat;
@@ -28,11 +41,11 @@ body{
 
 /* [] 1. Change overlayed play button */
 .mejs-378 .mejs-overlay-button {
- 	background: url("../img/video-play.png") no-repeat;
- 	background-size:contain;
- 	width: 150px;
- 	height: 150px;
- 	  margin: -75px 0 0 -75px;
+	background: url("../img/press-start.png")no-repeat;
+	width:300px;
+	height:100px;
+	  margin: -150px 0 0 -150px;
+	top:54%;
 }
 
 /* [] 2. Control Wrapper Positioning */
@@ -64,13 +77,36 @@ body{
 }
 
 .mejs-overlay:hover .mejs-overlay-button {
-  background-position: 0;
+
+}
+
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded{
+	background:black;
+}
+
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current{
+	background: #6dcff5;
 }
 
 .mejs-mediaelement{
 	background: url("../img/tron-background.jpg") no-repeat;
 	  background-position: 50%;
 }
+.mejs-container .mejs-controls .mejs-time{
+	display: none;
+}
+
+.mejs-controls .mejs-time-rail span{
+	height:25px;
+	border-radius: 0;
+}
+.mejs-controls .mejs-time-rail .mejs-time-total{
+	margin:0;
+}
+.mejs-controls div.mejs-time-rail{
+	padding:0;
+}
+
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
 
