@@ -1,0 +1,9 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400" version="1.1">
+<defs>
+<polygon id="play" fill="rgb(109,207,245)" fill-opacity="0.8" points="0,0 0,350 300,175" />
+</defs>
+<g>
+<use x="55" y="25" xlink:href="#play" />
+</g>
+</svg>
