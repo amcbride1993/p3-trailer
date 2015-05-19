@@ -51,9 +51,9 @@ hr{
 .mejs-378 .mejs-overlay-button {
 	background: url("../img/play.svg")no-repeat;
 	background-size: contain;
-	width:100px;
-	height:100px;
-	  margin: -50px 0 0 -50px;
+  width: 90px;
+  height: 90px;
+  margin: -45px 0 0 -45px;
 }
 
 /* [] 2. Control Wrapper Positioning */
