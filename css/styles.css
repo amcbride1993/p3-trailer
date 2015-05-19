@@ -85,6 +85,10 @@ hr{
 	background: red;
 }
 
+.mejs-overlay-button{
+	top:53%;
+}
+
 .mejs-overlay:hover .mejs-overlay-button {
 background-position: 50%;
 }
@@ -116,6 +120,20 @@ background-position: 50%;
 	padding:0;
 }
 
+.list{
+	display: block;
+	margin: 0 auto;
+	  width: 70%;
+  padding-left: 45px;
+}
+
+.castList{
+	display: inline-block;
+	list-style-type: none;
+	width:50%;
+	 padding: 0;
+  margin: 0;
+}
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
 
