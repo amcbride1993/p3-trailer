@@ -88,6 +88,9 @@ hr{
 .mejs-overlay-button{
 	top:53%;
 }
+.mejs-overlay-loading{
+	left: 46%;
+}
 
 .mejs-overlay:hover .mejs-overlay-button {
 background-position: 50%;
