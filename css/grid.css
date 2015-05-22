@@ -38,7 +38,7 @@ audio {
 	/* Columns
 	================================ */
 
-	.grid-container > [class^="grid-"] {
+/*	.grid-container > [class^="grid-"] {
 		float: left;
 		min-height: 1px;
 		padding-left: 10px;
@@ -50,7 +50,7 @@ audio {
 	}
 	.grid-container > [class^="grid-"]:last-child {
 		float: right;
-	}
+	}*/
 
 	/* Columns are 65px wide, with 20px gutters
 	=========================================== */
